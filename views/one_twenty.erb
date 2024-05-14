@@ -1,0 +1,9 @@
+<h1>1d20</h1>
+   
+<%  if @first == 1 %>
+  <p style="color: red"><%= @output %>
+<% elsif @first == 20 %>
+  <p style="color: green"><%= @output %>
+<% else %>
+  <p><%= @output %></p>
+<% end %>
